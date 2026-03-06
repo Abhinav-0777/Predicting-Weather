@@ -13,5 +13,6 @@ logging.basicConfig(filename=LOG_FILE,
                     datefmt="%Y-%m-%d %H:%M:%S"
     )
 
-def setup_logger(name) :
-    return logging.getLogger(name)
+
+if __name__ == "__main__" :
+    logging.info("Logging has started .")
